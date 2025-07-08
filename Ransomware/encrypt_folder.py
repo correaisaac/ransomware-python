@@ -4,7 +4,7 @@ import pyaes
 # Nome da pasta a ser criptografada
 folder_name = "Arquivos Importantes"
 
-# Chave de criptografia (deve ser a mesma para criptografar e descriptografar)
+# Chave de criptografia (Como to usando uma chave simetrica, temos que colocar a mesma chave lá na parte de desencriptação)
 key = b"12345678901234567890123456789012" #
 
 # Inicializa o modo de operação do AES
